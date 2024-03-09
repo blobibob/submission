@@ -8,8 +8,8 @@ from datetime import datetime
 
 # Load data 
 # kalau terdapat error, hapus submission\, ganti jadi dashboard\day_clean.csv
-day_df = pd.read_csv("Submission\dashboard\day_clean.csv")
-hour_df = pd.read_csv("Submission\dashboard\hour_clean.csv")
+day_df = pd.read_csv("dashboard\day_clean.csv")
+hour_df = pd.read_csv("dashboard\hour_clean.csv")
 
 # Navbar
 st.sidebar.title("Navigation")
